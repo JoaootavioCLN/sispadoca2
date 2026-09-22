@@ -62,9 +62,10 @@
             // BtnFechar
             // 
             BtnFechar.Font = new Font("Tahoma", 12F);
-            BtnFechar.Location = new Point(612, 414);
+            BtnFechar.Location = new Point(874, 690);
+            BtnFechar.Margin = new Padding(4, 5, 4, 5);
             BtnFechar.Name = "BtnFechar";
-            BtnFechar.Size = new Size(100, 50);
+            BtnFechar.Size = new Size(143, 83);
             BtnFechar.TabIndex = 76;
             BtnFechar.Text = "Fechar";
             BtnFechar.UseVisualStyleBackColor = true;
@@ -73,9 +74,10 @@
             // BtnCancelar
             // 
             BtnCancelar.Font = new Font("Tahoma", 12F);
-            BtnCancelar.Location = new Point(500, 414);
+            BtnCancelar.Location = new Point(714, 690);
+            BtnCancelar.Margin = new Padding(4, 5, 4, 5);
             BtnCancelar.Name = "BtnCancelar";
-            BtnCancelar.Size = new Size(100, 50);
+            BtnCancelar.Size = new Size(143, 83);
             BtnCancelar.TabIndex = 75;
             BtnCancelar.Text = "Cancelar";
             BtnCancelar.UseVisualStyleBackColor = true;
@@ -83,9 +85,10 @@
             // BtnExcluir
             // 
             BtnExcluir.Font = new Font("Tahoma", 12F);
-            BtnExcluir.Location = new Point(277, 414);
+            BtnExcluir.Location = new Point(396, 690);
+            BtnExcluir.Margin = new Padding(4, 5, 4, 5);
             BtnExcluir.Name = "BtnExcluir";
-            BtnExcluir.Size = new Size(100, 50);
+            BtnExcluir.Size = new Size(143, 83);
             BtnExcluir.TabIndex = 74;
             BtnExcluir.Text = "Excluir";
             BtnExcluir.UseVisualStyleBackColor = true;
@@ -93,9 +96,10 @@
             // BtnNovo
             // 
             BtnNovo.Font = new Font("Tahoma", 12F);
-            BtnNovo.Location = new Point(45, 414);
+            BtnNovo.Location = new Point(64, 690);
+            BtnNovo.Margin = new Padding(4, 5, 4, 5);
             BtnNovo.Name = "BtnNovo";
-            BtnNovo.Size = new Size(100, 50);
+            BtnNovo.Size = new Size(143, 83);
             BtnNovo.TabIndex = 72;
             BtnNovo.Text = "Novo";
             BtnNovo.UseVisualStyleBackColor = true;
@@ -104,55 +108,61 @@
             // TxbNome
             // 
             TxbNome.Font = new Font("Tahoma", 12F);
-            TxbNome.Location = new Point(216, 83);
+            TxbNome.Location = new Point(309, 138);
+            TxbNome.Margin = new Padding(4, 5, 4, 5);
             TxbNome.Name = "TxbNome";
-            TxbNome.Size = new Size(387, 27);
+            TxbNome.Size = new Size(551, 36);
             TxbNome.TabIndex = 71;
             // 
             // lblObservacoes
             // 
             lblObservacoes.AutoSize = true;
             lblObservacoes.Font = new Font("Tahoma", 12F);
-            lblObservacoes.Location = new Point(299, 306);
+            lblObservacoes.Location = new Point(427, 510);
+            lblObservacoes.Margin = new Padding(4, 0, 4, 0);
             lblObservacoes.Name = "lblObservacoes";
-            lblObservacoes.Size = new Size(98, 19);
+            lblObservacoes.Size = new Size(149, 29);
             lblObservacoes.TabIndex = 81;
             lblObservacoes.Text = "Observações";
             // 
             // TxbObservacoes
             // 
             TxbObservacoes.Font = new Font("Tahoma", 12F);
-            TxbObservacoes.Location = new Point(299, 337);
+            TxbObservacoes.Location = new Point(427, 562);
+            TxbObservacoes.Margin = new Padding(4, 5, 4, 5);
             TxbObservacoes.Name = "TxbObservacoes";
-            TxbObservacoes.Size = new Size(416, 27);
+            TxbObservacoes.Size = new Size(593, 36);
             TxbObservacoes.TabIndex = 70;
             // 
             // LblEmail
             // 
             LblEmail.AutoSize = true;
             LblEmail.Font = new Font("Tahoma", 12F);
-            LblEmail.Location = new Point(376, 142);
+            LblEmail.Location = new Point(537, 237);
+            LblEmail.Margin = new Padding(4, 0, 4, 0);
             LblEmail.Name = "LblEmail";
-            LblEmail.Size = new Size(54, 19);
+            LblEmail.Size = new Size(78, 29);
             LblEmail.TabIndex = 80;
             LblEmail.Text = "E-mail";
             // 
             // MtbCelular
             // 
             MtbCelular.Font = new Font("Tahoma", 12F);
-            MtbCelular.Location = new Point(216, 170);
+            MtbCelular.Location = new Point(309, 283);
+            MtbCelular.Margin = new Padding(4, 5, 4, 5);
             MtbCelular.Mask = "(99) 00000-0000";
             MtbCelular.Name = "MtbCelular";
-            MtbCelular.Size = new Size(144, 27);
+            MtbCelular.Size = new Size(204, 36);
             MtbCelular.TabIndex = 69;
             // 
             // LblCelular
             // 
             LblCelular.AutoSize = true;
             LblCelular.Font = new Font("Tahoma", 12F);
-            LblCelular.Location = new Point(216, 142);
+            LblCelular.Location = new Point(309, 237);
+            LblCelular.Margin = new Padding(4, 0, 4, 0);
             LblCelular.Name = "LblCelular";
-            LblCelular.Size = new Size(58, 19);
+            LblCelular.Size = new Size(85, 29);
             LblCelular.TabIndex = 79;
             LblCelular.Text = "Celular";
             // 
@@ -160,9 +170,10 @@
             // 
             LblEstado.AutoSize = true;
             LblEstado.Font = new Font("Tahoma", 12F);
-            LblEstado.Location = new Point(218, 306);
+            LblEstado.Location = new Point(311, 510);
+            LblEstado.Margin = new Padding(4, 0, 4, 0);
             LblEstado.Name = "LblEstado";
-            LblEstado.Size = new Size(56, 19);
+            LblEstado.Size = new Size(84, 29);
             LblEstado.TabIndex = 78;
             LblEstado.Text = "Estado";
             // 
@@ -170,53 +181,60 @@
             // 
             lblCidade.AutoSize = true;
             lblCidade.Font = new Font("Tahoma", 12F);
-            lblCidade.Location = new Point(48, 306);
+            lblCidade.Location = new Point(69, 510);
+            lblCidade.Margin = new Padding(4, 0, 4, 0);
             lblCidade.Name = "lblCidade";
-            lblCidade.Size = new Size(57, 19);
+            lblCidade.Size = new Size(84, 29);
             lblCidade.TabIndex = 77;
             lblCidade.Text = "Cidade";
             // 
             // MtbCEP
             // 
             MtbCEP.Font = new Font("Tahoma", 12F);
-            MtbCEP.Location = new Point(48, 251);
+            MtbCEP.Location = new Point(69, 418);
+            MtbCEP.Margin = new Padding(4, 5, 4, 5);
             MtbCEP.Mask = "00,000-99";
             MtbCEP.Name = "MtbCEP";
-            MtbCEP.Size = new Size(148, 27);
+            MtbCEP.Size = new Size(210, 36);
             MtbCEP.TabIndex = 61;
             // 
             // CmbEstado
             // 
             CmbEstado.Font = new Font("Tahoma", 12F);
             CmbEstado.FormattingEnabled = true;
-            CmbEstado.Location = new Point(216, 337);
+            CmbEstado.Items.AddRange(new object[] { "Acre - AC", "", "Alagoas - AL", "", "Amapá - AP", "", "Amazonas - AM", "", "Bahia - BA", "", "Ceará - CE", "", "Distrito Federal - DF", "", "Espírito Santo - ES", "", "Goiás - GO", "", "Maranhão - MA", "", "Mato Grosso - MT", "", "Mato Grosso do Sul - MS", "", "Minas Gerais - MG", "", "Pará - PA", "", "Paraíba - PB", "", "Paraná - PR", "", "Pernambuco - PE", "", "Piauí - PI", "", "Rio de Janeiro - RJ", "", "Rio Grande do Norte - RN", "", "Rio Grande do Sul - RS", "", "Rondônia - RO", "", "Roraima - RR", "", "Santa Catarina - SC", "", "São Paulo - SP", "", "Sergipe - SE", "", "Tocantins - TO" });
+            CmbEstado.Location = new Point(309, 562);
+            CmbEstado.Margin = new Padding(4, 5, 4, 5);
             CmbEstado.Name = "CmbEstado";
-            CmbEstado.Size = new Size(64, 27);
+            CmbEstado.Size = new Size(90, 37);
             CmbEstado.TabIndex = 68;
             // 
             // TxbBairro
             // 
             TxbBairro.Font = new Font("Tahoma", 12F);
-            TxbBairro.Location = new Point(552, 251);
+            TxbBairro.Location = new Point(789, 418);
+            TxbBairro.Margin = new Padding(4, 5, 4, 5);
             TxbBairro.Name = "TxbBairro";
-            TxbBairro.Size = new Size(163, 27);
+            TxbBairro.Size = new Size(231, 36);
             TxbBairro.TabIndex = 64;
             // 
             // TxbEndereco
             // 
             TxbEndereco.Font = new Font("Tahoma", 12F);
-            TxbEndereco.Location = new Point(216, 251);
+            TxbEndereco.Location = new Point(309, 418);
+            TxbEndereco.Margin = new Padding(4, 5, 4, 5);
             TxbEndereco.Name = "TxbEndereco";
-            TxbEndereco.Size = new Size(314, 27);
+            TxbEndereco.Size = new Size(447, 36);
             TxbEndereco.TabIndex = 62;
             // 
             // DtpDataNasc
             // 
             DtpDataNasc.Font = new Font("Tahoma", 12F);
             DtpDataNasc.Format = DateTimePickerFormat.Short;
-            DtpDataNasc.Location = new Point(48, 170);
+            DtpDataNasc.Location = new Point(69, 283);
+            DtpDataNasc.Margin = new Padding(4, 5, 4, 5);
             DtpDataNasc.Name = "DtpDataNasc";
-            DtpDataNasc.Size = new Size(148, 27);
+            DtpDataNasc.Size = new Size(210, 36);
             DtpDataNasc.TabIndex = 59;
             DtpDataNasc.Value = new DateTime(2026, 9, 15, 20, 30, 46, 0);
             // 
@@ -225,26 +243,29 @@
             CmbSexo.Font = new Font("Tahoma", 12F);
             CmbSexo.FormattingEnabled = true;
             CmbSexo.Items.AddRange(new object[] { "Feminino", "Masculino" });
-            CmbSexo.Location = new Point(615, 83);
+            CmbSexo.Location = new Point(879, 138);
+            CmbSexo.Margin = new Padding(4, 5, 4, 5);
             CmbSexo.Name = "CmbSexo";
-            CmbSexo.Size = new Size(100, 27);
+            CmbSexo.Size = new Size(141, 37);
             CmbSexo.TabIndex = 57;
             // 
             // TxbEmail
             // 
             TxbEmail.Font = new Font("Tahoma", 12F);
-            TxbEmail.Location = new Point(376, 170);
+            TxbEmail.Location = new Point(537, 283);
+            TxbEmail.Margin = new Padding(4, 5, 4, 5);
             TxbEmail.Name = "TxbEmail";
-            TxbEmail.Size = new Size(339, 27);
+            TxbEmail.Size = new Size(483, 36);
             TxbEmail.TabIndex = 55;
             // 
             // LblBairro
             // 
             LblBairro.AutoSize = true;
             LblBairro.Font = new Font("Tahoma", 12F);
-            LblBairro.Location = new Point(552, 224);
+            LblBairro.Location = new Point(789, 373);
+            LblBairro.Margin = new Padding(4, 0, 4, 0);
             LblBairro.Name = "LblBairro";
-            LblBairro.Size = new Size(51, 19);
+            LblBairro.Size = new Size(76, 29);
             LblBairro.TabIndex = 67;
             LblBairro.Text = "Bairro";
             // 
@@ -252,9 +273,10 @@
             // 
             LblEndereco.AutoSize = true;
             LblEndereco.Font = new Font("Tahoma", 12F);
-            LblEndereco.Location = new Point(216, 224);
+            LblEndereco.Location = new Point(309, 373);
+            LblEndereco.Margin = new Padding(4, 0, 4, 0);
             LblEndereco.Name = "LblEndereco";
-            LblEndereco.Size = new Size(74, 19);
+            LblEndereco.Size = new Size(111, 29);
             LblEndereco.TabIndex = 65;
             LblEndereco.Text = "Endereço";
             // 
@@ -262,9 +284,10 @@
             // 
             LblCEP.AutoSize = true;
             LblCEP.Font = new Font("Tahoma", 12F);
-            LblCEP.Location = new Point(48, 224);
+            LblCEP.Location = new Point(69, 373);
+            LblCEP.Margin = new Padding(4, 0, 4, 0);
             LblCEP.Name = "LblCEP";
-            LblCEP.Size = new Size(37, 19);
+            LblCEP.Size = new Size(53, 29);
             LblCEP.TabIndex = 63;
             LblCEP.Text = "CEP";
             // 
@@ -272,9 +295,10 @@
             // 
             LblDataNasc.AutoSize = true;
             LblDataNasc.Font = new Font("Tahoma", 12F);
-            LblDataNasc.Location = new Point(48, 142);
+            LblDataNasc.Location = new Point(69, 237);
+            LblDataNasc.Margin = new Padding(4, 0, 4, 0);
             LblDataNasc.Name = "LblDataNasc";
-            LblDataNasc.Size = new Size(148, 19);
+            LblDataNasc.Size = new Size(225, 29);
             LblDataNasc.TabIndex = 60;
             LblDataNasc.Text = "Data de nascimento";
             // 
@@ -282,9 +306,10 @@
             // 
             LblSexo.AutoSize = true;
             LblSexo.Font = new Font("Tahoma", 12F);
-            LblSexo.Location = new Point(615, 52);
+            LblSexo.Location = new Point(879, 87);
+            LblSexo.Margin = new Padding(4, 0, 4, 0);
             LblSexo.Name = "LblSexo";
-            LblSexo.Size = new Size(43, 19);
+            LblSexo.Size = new Size(64, 29);
             LblSexo.TabIndex = 58;
             LblSexo.Text = "Sexo";
             // 
@@ -292,37 +317,41 @@
             // 
             LblNome.AutoSize = true;
             LblNome.Font = new Font("Tahoma", 12F);
-            LblNome.Location = new Point(192, 52);
+            LblNome.Location = new Point(274, 87);
+            LblNome.Margin = new Padding(4, 0, 4, 0);
             LblNome.Name = "LblNome";
-            LblNome.Size = new Size(51, 19);
+            LblNome.Size = new Size(75, 29);
             LblNome.TabIndex = 56;
             LblNome.Text = "Nome";
             // 
             // MtbCPF
             // 
             MtbCPF.Font = new Font("Tahoma", 12F);
-            MtbCPF.Location = new Point(48, 83);
+            MtbCPF.Location = new Point(69, 138);
+            MtbCPF.Margin = new Padding(4, 5, 4, 5);
             MtbCPF.Mask = "###,###,###-##";
             MtbCPF.Name = "MtbCPF";
-            MtbCPF.Size = new Size(148, 27);
+            MtbCPF.Size = new Size(210, 36);
             MtbCPF.TabIndex = 54;
             // 
             // LblCPF
             // 
             LblCPF.AutoSize = true;
             LblCPF.Font = new Font("Tahoma", 12F);
-            LblCPF.Location = new Point(48, 52);
+            LblCPF.Location = new Point(69, 87);
+            LblCPF.Margin = new Padding(4, 0, 4, 0);
             LblCPF.Name = "LblCPF";
-            LblCPF.Size = new Size(36, 19);
+            LblCPF.Size = new Size(53, 29);
             LblCPF.TabIndex = 53;
             LblCPF.Text = "CPF";
             // 
             // BtnEditar
             // 
             BtnEditar.Font = new Font("Tahoma", 12F);
-            BtnEditar.Location = new Point(160, 414);
+            BtnEditar.Location = new Point(229, 690);
+            BtnEditar.Margin = new Padding(4, 5, 4, 5);
             BtnEditar.Name = "BtnEditar";
-            BtnEditar.Size = new Size(100, 50);
+            BtnEditar.Size = new Size(143, 83);
             BtnEditar.TabIndex = 73;
             BtnEditar.Text = "Editar";
             BtnEditar.UseVisualStyleBackColor = true;
@@ -331,17 +360,18 @@
             // TxbCidade
             // 
             TxbCidade.Font = new Font("Tahoma", 12F);
-            TxbCidade.Location = new Point(48, 337);
+            TxbCidade.Location = new Point(69, 562);
+            TxbCidade.Margin = new Padding(4, 5, 4, 5);
             TxbCidade.Name = "TxbCidade";
-            TxbCidade.Size = new Size(148, 27);
+            TxbCidade.Size = new Size(210, 36);
             TxbCidade.TabIndex = 66;
             // 
             // FrmClientes
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Lavender;
-            ClientSize = new Size(772, 499);
+            ClientSize = new Size(1103, 832);
             Controls.Add(BtnFechar);
             Controls.Add(BtnCancelar);
             Controls.Add(BtnExcluir);
@@ -371,6 +401,7 @@
             Controls.Add(LblCPF);
             Controls.Add(BtnEditar);
             Controls.Add(TxbCidade);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "FrmClientes";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cadastro de Clientes";
